@@ -62,6 +62,6 @@ and the pet will have one 4D sequence
 ### Organize into BIDS
 The first step is to (programatically) organize the data into the [BIDS](http://bids.neuroimaging.io) format. You can see it looks like this:
 
-![http://bids.neuroimaging.io/bids2.png](http://bids.neuroimaging.io/bids2.png)
+![img/bids.png](img/bids.png)
 
 This means that step 1 is to run [0.bids_convert.py](scripts/0.bids_convert.py). I've started this for you, with detailed steps along the way. I'd like you to try and reproduce these steps on your own, and then your task will be to generate the final json data structures before the dataset is completely BIDS-ified. Good luck, and please ping me if you have questions or run into trouble!
